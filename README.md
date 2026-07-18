@@ -1,40 +1,36 @@
-# Python_Coursework_KIU
-This repository contains coursework assignments completed during the Python Programming course at Kutaisi International University (KIU).
+# Data Structures in Python
 
-The assignments focus on fundamental programming concepts, including problem solving, object-oriented programming, data structures, and data analysis.
+This project contains implementations of fundamental data structures written in Python, along with small practical applications built on top of them.
 
-## Topics Covered
+The goal of this repository is to strengthen understanding of:
 
-- Python fundamentals and algorithmic problem solving
+- Stack behavior (LIFO principle)
+- Linked List structure (node-based memory model)
+- Pointer manipulation (prev/next references)
+- State management using stacks
+- Algorithmic problem solving
 
-- Object-Oriented Programming (OOP)
+## Implemented Structures & Applications
 
-- Data Structures:
+### 1. Stack (Custom Implementation)
+A basic Stack class supporting push, pop, peek, size, and is_empty operations.
 
-  - Stacks
+### 2. Text Editor with Undo/Redo
+Implements undo/redo functionality using two stacks:
+- Undo stack stores previous states
+- Redo stack stores reverted states
 
-  - Linked Lists
+Demonstrates state tracking and stack-based control flow.
 
-  - Queues
+### 3. Browser History (Doubly Linked List)
+Simulates browser navigation using a linked list structure.
+Supports:
+- Visiting new pages
+- Moving backward
+- Moving forward
 
-- Data analysis using:
+Demonstrates node linking and pointer updates.
 
-  - NumPy
+---
 
-  - Pandas
-
-  - Matplotlib
-
-## Purpose
-
-The goal of this coursework was to develop practical Python programming skills through implementing algorithms, working with data structures, and applying programming concepts to solve computational problems.
-
-## Technologies
-
-- Python
-
-- NumPy
-
-- Pandas
-
-- Matplotlib
+These implementations focus on clarity, correctness, and understanding of core data structure principles.
